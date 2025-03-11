@@ -28,7 +28,19 @@ pip install requests pillow
 
 ## Usage
 
-Modify the number of images you want and their size in main, then run the script.
+Modify the number of images you want and their size in main, then run the script to generate wallpapers.
+
+## KDE special
+
+If you are on KDE, use the `wp_manager.sh` to automatically delete the wp you don't like, or copy the ones you like to a curated folder.
+Usage:
+
+```bash
+$ wp_manager.sh good # Copies the wallpaper to a curated directory
+$ wp_manager.sh bad # Deletes the wallpaper
+```
+Use aliases to access this script a little faster.
+
 
 ## Credits & Licence
 
